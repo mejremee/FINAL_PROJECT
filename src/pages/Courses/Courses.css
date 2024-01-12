@@ -1,0 +1,12 @@
+.courses-page header {
+    background-image: linear-gradient(rgba(5,10,35,0.75), rgba(5,
+    10,35,0.75)), url("../../asets/images/backg.jpg");
+}
+
+.courses-page .card-img-overlay {
+    background-color: rgba(5,10,35,0.75);
+}
+
+.courses-page .card:hover{
+    cursor: pointer;
+}

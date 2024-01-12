@@ -1,0 +1,26 @@
+.contact-page header {
+    background-image: linear-gradient(rgba(5,10,35,0.75), rgba(5,10,35,0.75)),
+     url("../../asets/images/person99.jpg");
+}
+
+#contact-form {
+    width:50%;
+}
+ #contact-form .form-control:focus,
+ #contact-form .form-select:focus {
+     border-color:#FF96A7;
+     box-shadow: 0 0 0 0.25rem rgba(255,150,167,0.25 );
+ }
+
+@media only screen and (max-width: 992px) {
+    #contact-form {
+        width:75%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #contact-form {
+        width:100%;
+    }
+}
+
